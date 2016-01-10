@@ -61,7 +61,7 @@ function vamos(){
         }
       }
     document.getElementById('hora').innerHTML = breack + ":" + segundos;
-    },100);
+    },1000);
 }
 
 function iniciar(){
@@ -113,7 +113,7 @@ function iniciar(){
       }
 
     document.getElementById('hora').innerHTML = minutos + ":" + segundos;
-  },100);  
+  },1000);  
 }
 
 //Funciones de tiempo
